@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    --primary: 217 91% 60%;
+    --primary: 195 100% 39%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96%;
@@ -34,25 +34,28 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 217 91% 60%;
+    --ring: 195 100% 39%;
 
-    /* Custom inventory colors */
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 98%;
-    --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 98%;
-    --info: 199 89% 48%;
-    --info-foreground: 0 0% 98%;
+    /* Travel-specific colors */
+    --ocean: 195 100% 39%;
+    --ocean-foreground: 0 0% 100%;
+    --sunset: 25 95% 53%;
+    --sunset-foreground: 0 0% 100%;
+    --forest: 120 60% 30%;
+    --forest-foreground: 0 0% 100%;
+    --sand: 45 86% 83%;
+    --sand-foreground: 215 25% 27%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(199 89% 48%) 100%);
-    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(120 76% 40%) 100%);
-    --gradient-warning: linear-gradient(135deg, hsl(38 92% 50%) 0%, hsl(32 95% 44%) 100%);
+    /* Travel gradients */
+    --gradient-ocean: linear-gradient(135deg, hsl(195 100% 39%) 0%, hsl(220 70% 50%) 100%);
+    --gradient-sunset: linear-gradient(135deg, hsl(25 95% 53%) 0%, hsl(45 95% 55%) 100%);
+    --gradient-tropical: linear-gradient(135deg, hsl(195 100% 39%) 0%, hsl(175 85% 45%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(195 100% 39% / 0.9) 0%, hsl(220 70% 50% / 0.8) 100%);
 
-    /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
-    --shadow-card: 0 4px 6px -1px hsl(0 0% 0% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1);
+    /* Enhanced shadows */
+    --shadow-travel: 0 10px 40px -10px hsl(195 100% 39% / 0.3);
+    --shadow-destination: 0 20px 60px -10px hsl(0 0% 0% / 0.15);
+    --shadow-glow: 0 0 30px hsl(195 100% 39% / 0.4);
 
     --radius: 0.5rem;
 
